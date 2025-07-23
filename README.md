@@ -1,4 +1,4 @@
-# Self-similarity-Analysis-in-Deep-Neural-Networ
+# Self-similarity-Analysis-in-Deep-Neural-Networks
 
 you can use these code  "python main.py --input-size 224 --data-path ./data-1 --data-set CIFAR10   --lr 5e-04 --epochs 200 --batch-size 64 --output_dir ../save/poolformer_CIFAR10_noSrate --model poolformer  --seed 0   --only-record-sfm-rate"  
 and "python main.py --input-size 224 --data-path ./data-1 --data-set CIFAR10  --lr 5e-04 --epochs 200 --batch-size 64 --output_dir ../save/poolformer_CIFAR10_useSrate --model poolformer --use-sfm-loss --seed 0 --sfm-weight 1e-4 --sample-epoch-fre 5 --Change-amplitude-limit 0.05 --target-sfm-rate 0.3" to reproduce our experiments.
