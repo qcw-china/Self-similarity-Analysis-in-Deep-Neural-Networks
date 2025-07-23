@@ -5,6 +5,5 @@ and "python main.py --input-size 224 --data-path ./data-1 --data-set CIFAR10  --
 
 --use-sfm-loss    This is used to control whether the self-similarity constraint is enabled or not.
 --sfm-weight    Control the intensity of the srate regularization            
---sample-epoch-fre    The epoch frequency for varying the Srate sampling
---Change-amplitude-limit    
+--sample-epoch-fre    The epoch frequency for varying the Srate sampling  
 --target-sfm-rate    The value of the srate when the unconstrained model converges
